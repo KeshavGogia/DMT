@@ -1,0 +1,5 @@
+service : {
+  checkBalance: (principal) -> (nat) query;
+  getSymbol: () -> (text) query;
+  payOut: () -> (text);
+}
